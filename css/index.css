@@ -1,0 +1,57 @@
+@media screen and (max-width: 600px) 
+{
+    .bgimg {
+      display: none;
+    }
+    .bar>li a {
+        float: none;
+        width: 100%;
+    }
+}
+body, html {
+    height: 100%;
+    font-family: "Didact Gothic", sans-serif;
+}
+.bgimg {
+    background-image: url("../images/img8.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menu {
+    display: none;
+}
+.w3-container p 
+{
+    margin: 0px;
+}
+/* Region Navigation Bar */
+.bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #f3dfb8;
+    background-color: #f3dfb8;
+}
+.bar>li a {
+    display: block;
+    float: left;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.bar>li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.bar>li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+
+/* Endregion Navigation Bar */
